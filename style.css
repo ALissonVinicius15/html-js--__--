@@ -8,12 +8,12 @@
 :root{
     --fonte-titulo: "Arima", system-ui;
     --fonte-texto: "Chakra Petch", sans-serif;
-    --cor-cartao: rgb(0, 0, 0);
+    --cor-cartao: rgb(3, 17, 1);
     --cor-cabecalho: rgb(56, 139, 112);
     --cor-texto01: rgb(73, 83, 17);
     --cor-texto02: #942fa8;
     --cor-destaque: rgb(17, 99, 60);
-    --cor-fundo: rgb(155, 53, 252);
+    --cor-fundo: rgb(93, 121, 49);
 }
 
 body{
