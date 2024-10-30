@@ -9,11 +9,11 @@
     --fonte-titulo: "Arima", system-ui;
     --fonte-texto: "Chakra Petch", sans-serif;
     --cor-cartao: rgb(3, 17, 1);
-    --cor-cabecalho: rgb(56, 139, 112);
-    --cor-texto01: rgb(73, 83, 17);
-    --cor-texto02: #942fa8;
-    --cor-destaque: rgb(17, 99, 60);
-    --cor-fundo: rgb(93, 121, 49);
+    --cor-cabecalho: rgb(1, 88, 62);
+    --cor-texto01: rgb(9, 54, 35);
+    --cor-texto02: #02d6fc;
+    --cor-destaque: rgb(5, 99, 53);
+    --cor-fundo: rgb(49, 122, 91);
 }
 
 body{
@@ -59,4 +59,25 @@ header h1{
 footer a{
     text-decoration: none;
     color: var(--cor-destaque);
+}
+
+.principal-numero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.numero-input{
+    font-size: 2em;
+    padding: 1em;
+}
+
+.numero-botao{
+    margin-left: 1em;
+    font-size: 1.5em;
+    padding: 1em;
+    background-color: #014324;
+    border-radius: 15px
+
 }
